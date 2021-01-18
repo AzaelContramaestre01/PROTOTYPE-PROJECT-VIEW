@@ -1,3 +1,23 @@
+#thanks {
+  color: white;
+}
+
+.agenda {
+  margin-left: 10vh;
+}
+
+body {
+  background-color: black;
+}
+.container-fluid {
+  background-color: black;
+}
+
+span {
+  color: white
+}
+
+
 /* BACKGROUND COLOR TO BLACK */
 
 #upper-paralax {
@@ -20,11 +40,11 @@
     background-image: url("https://i.pinimg.com/originals/2c/87/0a/2c870a61870e120bfcca3ab99c9dd2bf.jpg");
   
     /* Set a specific height */
-    min-height: 400px; 
+    min-height: 250px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
+    background-image: center;
     background-repeat: no-repeat;
     
   }
