@@ -308,6 +308,7 @@ background-color:#ea4c89
   max-width: 1200px;
   margin:0px auto;
 }
+
 .contenedor-principal {
   padding: 20px;
   background-image: url("./img/bg-registro-2.jpg");
@@ -344,7 +345,11 @@ background-color:#ea4c89
 
 .main-servicios{
   background-color:white;
+<<<<<<< HEAD
   max-width: 1200;
+=======
+  max-width: 1200px;
+>>>>>>> 48048d2b29ef87c76b93f15ef48f69b52550b6c4
   margin:0px auto;
   padding: 15px;
 }
@@ -360,6 +365,7 @@ background-color:#ea4c89
   line-height: 1.5rem;
 }
 
+<<<<<<< HEAD
 
 /* FOOTER */ 
 
@@ -492,6 +498,8 @@ footer{
   }
 }
 
+=======
+>>>>>>> 48048d2b29ef87c76b93f15ef48f69b52550b6c4
 .contact-number{
   font-size: 1.6rem;
   text-align: center;
