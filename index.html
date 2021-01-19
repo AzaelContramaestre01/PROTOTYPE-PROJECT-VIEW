@@ -31,26 +31,31 @@
 <!-- NavBar -->
 
 <body>
-  <header class="header">
-    <div class="bg-dark">
-      <div class="container">
-        <ul class="nav">
-          <li class="nav-item1">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item2">
-            <a class="nav-link" href="#">Contacto y Soporte</a>
-          </li>
-          <li class="nav-item3">
-            <a class="nav-link" href="/registro.html">Registro</a>
-          </li>
-          <li class="nav-item4">
-            <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-shopping-cart"></i></a>
-          </li>
-        </ul>
-      </div>
-      <div>
-  </header>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo-1.svg" width="117" height="64" alt="">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/index.html">Inicio <span class="sr-only">(current)</span> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/registro.html">Registro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/servicios.html">Contacto y Soporte</a>
+                    </li>
+                    <li class="nav-item4">
+                        <a class="nav-link" aria-current="page" href="/servicios.html"><i class="fas fa-shopping-cart"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
 
   <!-- Carouse -->
 
@@ -143,6 +148,35 @@
 
 
                 </div>
+
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <div class="card" style="width: 18rem;">
+                        <img id="img-card" src="img/star.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text"> <a id="hyper" href="/servicios.html">Agenda tus servicios.</a> </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="card" style="width: 18rem;">
+                        <img id="img-card" src="img/car-wash.jpg"  class=" card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class=" card-text"> <a id="hyper" href="/registro.html">Registrate.</a> </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div  class="card" style="width: 18rem;">
+                        <img id="img-card" src="img/domi.jpg"  class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text"> <a id="hyper" href="/servicios.html"> Lavado a Domicilio.</a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
 
                 <!-- Google Map -->
 
